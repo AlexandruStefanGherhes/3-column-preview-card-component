@@ -34,7 +34,7 @@ Mobile version
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/3-column-preview-card-component.git)
-- Live Site URL: [GitHub Pages Live URL](https://alexandrustefangherhes.github.io/Stats-Preview-Project/)
+- Live Site URL: [GitHub Pages Live URL](https://alexandrustefangherhes.github.io/3-column-preview-card-component/)
 
 ## My process
 
