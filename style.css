@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --para: hsla(0, 0%, 100%, 0.75);
+  --back-head-btn: hsl(0, 0%, 95%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
+
+section {
+  max-width: 375px;
+  padding: 20px;
+}
+
+article {
+  padding: 30px;
+}
+
+.sedans {
+  background: var(--bright-orange);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.suvs {
+  background: var(--dark-cyan);
+}
+
+.luxury {
+  background: var(--very-dark-cyan);
+  border-radius: 0px 0px 5px 5px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 30px;
+  color: var(--back-head-btn);
+  padding: 20px 0px;
+}
+
+p {
+  color: var(--para);
+  font-family: "Lexend Deca";
+  line-height: 1.5;
+  font-weight: 100;
+  padding: 10px 0;
+  max-width: 90%;
+}
+
+button {
+  border: none;
+  font-family: "Lexend Deca";
+  color: var(--dark-cyan);
+  background: var(--back-head-btn);
+  padding: 15px 40px;
+  border-radius: 30px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+button:active {
+  background: none;
+  outline: 2px solid var(--back-head-btn);
+  color: var(--back-head-btn);
+}
+
+.attribution {
+  font-family: "Lexend Deca";
+}
+
+@media (min-width: 610px) {
+  section {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+  }
+
+  .sedans {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .luxury {
+    border-radius: 0px 10px 10px 0px;
+  }
+  p {
+    max-width: 95%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  button {
+    margin-top: 40px;
+  }
+}
