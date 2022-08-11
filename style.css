@@ -12,7 +12,7 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
 }
 
 img,
@@ -53,8 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  height: 100vh;
+  justify-content: center;
 }
 
 section {
@@ -119,7 +118,7 @@ button:active {
 
 @media (min-width: 610px) {
   section {
-    margin-top: 300px;
+    /* margin-top: 300px; */
     display: flex;
     flex-direction: row;
     max-width: 900px;
